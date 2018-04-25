@@ -22,4 +22,4 @@ os.system( "sudo apt-get upgrade" )
 os.system( "sudo apt-get install python dev python-rpi.gpio" )
 
 # Set boot.py in list to be run on boot.
-os.system( "echo 'python /home/pi/Desktop/Python/boot.py' >> /home/pi/.profile" )
+os.system( "echo 'python /home/pi/Desktop/groundstation/boot.py' >> /home/pi/.profile" )
